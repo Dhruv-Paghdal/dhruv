@@ -175,4 +175,4 @@ let activeCarousel=()=>{
   }
 }
 
-setInterval(activeCarousel,100);
+setInterval(activeCarousel,350);
