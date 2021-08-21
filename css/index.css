@@ -179,6 +179,7 @@ a button:hover {
 .footer {
   color: white;
   background-color: #36454f;
+  font-family:"Ubuntu",sans-serif;
 }
 
 .footer .sec1 {
