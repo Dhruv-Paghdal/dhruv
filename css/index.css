@@ -103,10 +103,11 @@ a button:hover {
   font-weight: 400;
   color: rgba(6, 201, 201, 0.849);
   letter-spacing: 6.6px;
+  text-transform: uppercase;
 }
 
 .content .about .aboutImg {
-  height: 70vh;
+  height: auto;
   background: url("../images/about2.jpeg");
   background-position: center;
   background-repeat: no-repeat;
@@ -145,14 +146,12 @@ a button:hover {
 }
 
 .content .skills .skillData ul li {
-  padding: 0.8rem;
   font-size: 1.5rem;
   font-weight: 450;
   color: rgba(41, 40, 40, 0.89);
 }
 
 .content .skills .skillPro {
-  padding: 0.8rem;
   width: 100vw;
 }
 
@@ -179,7 +178,11 @@ a button:hover {
 .footer {
   color: white;
   background-color: #36454f;
-  font-family:"Ubuntu",sans-serif;
+  font-family: "Ubuntu",sans-serif;
+}
+
+.footer #myDetail, .footer #myName, .footer #telNum, .footer #emailID {
+  font-size: 1.5rem;
 }
 
 .footer .sec1 {
@@ -322,7 +325,7 @@ a button:hover {
   }
   .content a h2 {
     letter-spacing: 4.6px;
-    /*text-transform: uppercase;*/
+    text-transform: uppercase;
     font-family: "Ubuntu",sans-serif;
   }
   .content .about {
@@ -333,6 +336,7 @@ a button:hover {
     background: url("../images/about3.jpeg") center no-repeat;
     background-size: cover;
     width: 90vw;
+    height: 70vh;
     padding-left: 0px;
   }
   .content .about .para {
@@ -370,6 +374,9 @@ a button:hover {
     width: 300px;
     -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.199);
             box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.199);
+  }
+  .footer #myDetail, .footer #myName, .footer #telNum, .footer #emailID {
+    font-size: 1.2rem;
   }
   .footer .sec2 a i {
     padding-top: 10%;
