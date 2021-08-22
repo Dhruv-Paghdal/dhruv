@@ -102,12 +102,13 @@ a{
             font-weight: 400;
             color:rgba(6, 201, 201, 0.849);
             letter-spacing:6.6px;  
+            text-transform: uppercase;
         }
     }
 
     .about{
         .aboutImg{
-            height:70vh;
+            height:auto;
             background:url("../images/about2.jpeg");
             background-position: center;
             background-repeat: no-repeat;
@@ -139,7 +140,6 @@ a{
                     font-size: 2rem;
                 }
                 li{
-                    padding: 0.8rem;
                     font-size: 1.5rem;
                     font-weight: 450;
                     color: rgba(41, 40, 40, 0.89);
@@ -148,7 +148,6 @@ a{
             @include colWidth();
         }
         .skillPro{
-            padding: 0.8rem;
             @include colWidth();
         }  
     }
@@ -179,8 +178,10 @@ a{
 .footer{
     color:white;
     background-color: rgb( 54, 69, 79);
-    font-family:"Ubuntu",sans-serif;
-    
+    font-family: "Ubuntu",sans-serif;
+    #myDetail,#myName,#telNum,#emailID{
+        font-size: 1.5rem;
+    }
     .sec1{
         padding-left: 5%;
         padding-right: 5%;
@@ -316,7 +317,7 @@ a{
         a{
             h2{
                 letter-spacing:4.6px;
-                //text-transform: uppercase;
+                text-transform: uppercase;
                 font-family:"Ubuntu",sans-serif;
             }
         }
@@ -328,6 +329,7 @@ a{
                 background:url("../images/about3.jpeg") center no-repeat;
                 background-size: cover;
                 width:90vw;
+                height:70vh;
                 padding-left: 0px;
             }
             .para{
@@ -373,6 +375,9 @@ a{
     } 
 
     .footer{
+        #myDetail,#myName,#telNum,#emailID{
+            font-size: 1.2rem;
+        }
         .sec2{
             a{
                 i{
@@ -389,4 +394,3 @@ a{
         justify-content: center;  
     }
 }
-
