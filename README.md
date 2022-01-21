@@ -1,3 +1,3 @@
 # Portfolio Website
 
-* Visit : dhruv-paghdal.github.io/dhruv
+* Visit : https://dhruv-paghdal.github.io/dhruv
